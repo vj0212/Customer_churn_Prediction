@@ -214,9 +214,11 @@ pip install -r requirements.txt
  🚀 Usage
 
 1. **Predict New Data**:
+   ```
     python src/predict.py --input new_customers.csv --model models/best_churn_model.pkl --output predictions.csv
-    
-2. **Interpret Predictions**:
+    ```
+   
+3. **Interpret Predictions**:
     - Use SHAP scripts in `src/interpretation.py` to generate feature impact plots.
 
 ---
